@@ -1,0 +1,14 @@
+.mainLayout {
+    margin-left: 20%;
+    min-height: 100vh;
+}
+
+.light-theme {
+    background-color: var(--light-background);
+    color: var(--light-color);
+}
+
+.dark-theme {
+    background-color: var(--dark-background);
+    color: var(--dark-color);
+}

@@ -1,0 +1,35 @@
+@import "./scss/fonts/fonts.scss";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+:root {
+    --light-background: #bcd2d0;
+    --light-background-sidebar: #707e7c;
+    --light-color: #000;
+
+    --dark-background: #36454F;
+    --dark-background-sidebar: #222233;
+    --dark-color: #fff;
+
+    --type-text-color: #f96161;
+    --IndianFlag-dark: linear-gradient(to right, #FF671F, #fff, #046A38);
+    --IndianFlag-light: linear-gradient(to bottom, #FF671F, #fff, #046A38);
+
+    --Roboto-Regular: "Roboto-Regular";
+    --Open_Sans: "Open_Sans";
+}
