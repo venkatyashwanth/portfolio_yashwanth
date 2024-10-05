@@ -36,14 +36,14 @@ const SideBar = () => {
         <div className={`${styles.sideBar} ${styles[theme]}`}>
             <div className={`${styles.profileImage}`}>
                 <img src="https://i.postimg.cc/8ztdLkZ1/dummy450x450.jpg" alt="avatar" />
-            </div>
+            </div> 
             <div>
                 <ul className={`${styles.navigationList}`}>
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/home">Home</Link>
                     </li>
                     <li>
-                        <Link to="projects">More</Link>
+                        <Link to="projects">Projects</Link>
                     </li>
                 </ul>
             </div>

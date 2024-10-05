@@ -1,14 +1,14 @@
 import React from 'react'
 import {
   createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
+  RouterProvider
 } from 'react-router-dom';
 
 import App from './App';
 import Home from './components/Home';
 import Projects from './components/Projects';
+import ProjectDesc from './components/ProjectDesc';
+import ProjectList from './components/ProjectList';
 
 const router = createBrowserRouter([
   {
@@ -16,16 +16,26 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: '/',
-        element: <Home />,
+        path: '/home',
+        element: <Home />
       },
       {
-        path: 'projects',
+        path: '/projects',
         element: <Projects />,
+        children: [
+          {
+            path: '/projects',
+            element: <ProjectList />
+          },
+          {
+            path: '/projects/:projId',
+            element: <ProjectDesc />
+          }
+        ]
       },
-    ],
+
+    ]
   },
-  
 ]);
 
 export { RouterProvider, router };

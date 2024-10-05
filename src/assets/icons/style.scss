@@ -1,0 +1,86 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ud8aab');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ud8aab#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ud8aab') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ud8aab') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ud8aab##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icons_"], [class*=" icons_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icons_outward_arr {
+  &:before {
+    content: $icons_outward_arr;     
+    color: #5f6368;
+  }
+}
+.icons_xmark_solid {
+  &:before {
+    content: $icons_xmark_solid; 
+  }
+}
+.icons_bars_solid {
+  &:before {
+    content: $icons_bars_solid; 
+  }
+}
+.icons_chevron_right_solid {
+  &:before {
+    content: $icons_chevron_right_solid; 
+  }
+}
+.icons_facebook_f {
+  &:before {
+    content: $icons_facebook_f; 
+  }
+}
+.icons_instagram {
+  &:before {
+    content: $icons_instagram; 
+  }
+}
+.icons_linkedin_in {
+  &:before {
+    content: $icons_linkedin_in; 
+  }
+}
+.icons_x_twitter {
+  &:before {
+    content: $icons_x_twitter; 
+  }
+}
+.icons_cart_shopping_solid {
+  &:before {
+    content: $icons_cart_shopping_solid; 
+  }
+}
+.icons_heart_solid {
+  &:before {
+    content: $icons_heart_solid; 
+  }
+}
+.icons_user_solid {
+  &:before {
+    content: $icons_user_solid; 
+  }
+}
+

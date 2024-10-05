@@ -1,10 +1,16 @@
 import React from 'react';
-const Prooject = () => {
-  return (
-    <div>
-        <h1>This is layout</h1>
-    </div>
-  )
+import { Outlet } from 'react-router-dom';
+import "./Projects.scss";
+
+const Project = () => {
+    return (
+        <>
+            <div className='breadcrumb'>
+                <p >BreadCrumbs</p>
+            </div>
+            <Outlet />
+        </>
+    )
 }
 
-export default Prooject;
+export default Project;

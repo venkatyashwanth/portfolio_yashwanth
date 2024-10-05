@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('fonts/icons.eot?ud8aab');
+  src:  url('fonts/icons.eot?ud8aab#iefix') format('embedded-opentype'),
+    url('fonts/icons.ttf?ud8aab') format('truetype'),
+    url('fonts/icons.woff?ud8aab') format('woff'),
+    url('fonts/icons.svg?ud8aab#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icons_"], [class*=" icons_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icons_outward_arr:before {
+  content: "\e900";
+  color: #5f6368;
+}
+.icons_xmark_solid:before {
+  content: "\e901";
+}
+.icons_bars_solid:before {
+  content: "\e902";
+}
+.icons_chevron_right_solid:before {
+  content: "\e903";
+}
+.icons_facebook_f:before {
+  content: "\e904";
+}
+.icons_instagram:before {
+  content: "\e905";
+}
+.icons_linkedin_in:before {
+  content: "\e906";
+}
+.icons_x_twitter:before {
+  content: "\e907";
+}
+.icons_cart_shopping_solid:before {
+  content: "\e908";
+}
+.icons_heart_solid:before {
+  content: "\e909";
+}
+.icons_user_solid:before {
+  content: "\e90a";
+}

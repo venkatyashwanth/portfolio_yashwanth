@@ -1,0 +1,51 @@
+@import "../../scss/base/common";
+
+.projectList {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+
+    .projectCard {
+        position: relative;
+
+        .projectInfo {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .projectTitle {
+            font-family: var(--Roboto-Regular);
+            font-weight: 400;
+            font-size: 1.6rem;
+            max-width: 16ch;
+            text-align: center;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            color: #fff;
+        }
+
+        .icon {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            font-size: 1.6rem;
+            cursor: pointer;
+            background-color: #cccccc;
+            border-radius: 50%;
+            padding: .4rem;
+            &::before {
+                color: #fff;
+            }
+        }
+
+        a:hover .icon{
+            background-color: #000;
+        }
+    }
+}
